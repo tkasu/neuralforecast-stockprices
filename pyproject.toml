@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "neuralforecast-stockprices"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.0"
+neuralforecast = "^1.6.4"
+kaggle = "^1.6.5"
+notebook = "^7.0.7"
+polars = "^0.20.7"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^24.1.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
