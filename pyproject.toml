@@ -13,6 +13,7 @@ kaggle = "^1.6.5"
 notebook = "^7.0.7"
 polars = "^0.20.7"
 seaborn = "^0.13.2"
+datasetsforecast = "^0.0.8"
 
 
 [tool.poetry.group.dev.dependencies]
